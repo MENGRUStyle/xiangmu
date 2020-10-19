@@ -1,0 +1,12 @@
+server:
+  port: 8084
+# dubbo的基本信息
+dubbo:
+  application:
+    name: item-web
+  registry:
+    address: zookeeper://localhost:2181
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYTHML5

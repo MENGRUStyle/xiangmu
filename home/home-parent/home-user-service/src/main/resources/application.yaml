@@ -1,0 +1,19 @@
+server:
+  port: 8070
+
+# dubbo的基本信息
+dubbo:
+  application:
+    name: user-service
+  registry:
+    address: zookeeper://localhost:2181
+  protocol:
+    name: dubbo
+    port: 9991
+
+# jdbc
+spring:
+  datasource:
+    password:
+    username: root
+    url: jdbc:mysql://localhost:3306/db_gmall?characterEncoding=UTF-8

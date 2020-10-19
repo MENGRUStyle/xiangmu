@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs-client-java" />
+        <module name="home-api" />
+        <module name="home-cart-service" />
+        <module name="home-cart-web" />
+        <module name="home-common-util" />
+        <module name="home-item-web" />
+        <module name="home-manage-service" />
+        <module name="home-manage-web" />
+        <module name="home-passport-web" />
+        <module name="home-search-service" />
+        <module name="home-search-web" />
+        <module name="home-service-util" />
+        <module name="home-user-service" />
+        <module name="home-user-web" />
+        <module name="home-web-util" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="home-api" options="-parameters" />
+      <module name="home-cart-service" options="-parameters" />
+      <module name="home-cart-web" options="-parameters" />
+      <module name="home-common-util" options="-parameters" />
+      <module name="home-item-web" options="-parameters" />
+      <module name="home-manage-service" options="-parameters" />
+      <module name="home-manage-web" options="-parameters" />
+      <module name="home-passport-web" options="-parameters" />
+      <module name="home-search-service" options="-parameters" />
+      <module name="home-search-web" options="-parameters" />
+      <module name="home-service-util" options="-parameters" />
+      <module name="home-user-service" options="-parameters" />
+      <module name="home-user-web" options="-parameters" />
+      <module name="home-web-util" options="-parameters" />
+    </option>
+  </component>
+</project>

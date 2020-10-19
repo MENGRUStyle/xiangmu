@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gec.gmall.product.dao.PmsSkuInfoMapper">
+
+    <select id="selectSkuSaleAttrValueListBySpuId" resultMap="resultMap">
+
+        select ssa.sku_id,ssa.sale_attr_value_id from pms_sku_sale_attr_value ssa where ssa.sku_id
+        in (select id from pms_sku_info sku where sku.product_id=#{productId})
+
+    </select>
+
+    <resultMap id="resultMap" type="com.gec.gmall.product.pojo.SelectSkuSaleAttrValue">
+
+        <result column="sku_id" property="skuId" />
+        <collection property="saleAttrValueIdList" ofType="com.gec.gmall.product.pojo.PmsSkuSaleAttrValue">
+            <result property="saleAttrValueId" column="sale_attr_value_id" />
+        </collection>
+    </resultMap>
+
+</mapper>

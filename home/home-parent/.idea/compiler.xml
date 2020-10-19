@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs-client-java" />
+        <module name="home-api" />
+        <module name="home-cart-service" />
+        <module name="home-cart-web" />
+        <module name="home-common" />
+        <module name="home-item-web" />
+        <module name="home-manage-service" />
+        <module name="home-manage-web" />
+        <module name="home-passport-web" />
+        <module name="home-search-service" />
+        <module name="home-search-web" />
+        <module name="home-service-util" />
+        <module name="home-user-service" />
+        <module name="home-user-web" />
+        <module name="home-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.5" />
+      <module name="fastdfs-client-java (2)" target="1.5" />
+      <module name="home-api" target="1.8" />
+      <module name="home-cart-service" target="1.8" />
+      <module name="home-cart-web" target="1.8" />
+      <module name="home-common" target="1.8" />
+      <module name="home-item-web" target="1.8" />
+      <module name="home-manage-service" target="1.8" />
+      <module name="home-manage-web" target="1.8" />
+      <module name="home-parent" target="1.8" />
+      <module name="home-passport-web" target="1.8" />
+      <module name="home-search-service" target="1.8" />
+      <module name="home-search-web" target="1.8" />
+      <module name="home-service-util" target="1.8" />
+      <module name="home-user-service" target="1.8" />
+      <module name="home-user-web" target="1.8" />
+      <module name="home-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

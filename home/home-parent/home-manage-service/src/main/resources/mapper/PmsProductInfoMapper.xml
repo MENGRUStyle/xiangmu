@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kai.home.product.dao.PmsProductInfoMapper">
+
+    <select id="getSpuSalteAttrListCheckBySkuBySql" resultMap="resultMap">
+
+        select sa.product_id,sa.sale_attr_id,sa.sale_attr_name,sav.id as sale_attr_value_id,sav.sale_attr_value_name,if(ssav.sku_id,1,0) as isChecked
+        from pms_product_sale_attr sa INNER JOIN pms_product_sale_attr_value sav
+        on sa.product_id = sav.product_id and sa.sale_attr_id = sav.sale_attr_id and  sa.product_id = #{productId}
+        left join
+        pms_sku_sale_attr_value ssav
+        on
+          ssav.sale_attr_value_id=sav.id and ssav.sale_attr_id=sav.sale_attr_id and ssav.sku_id=#{skuId}
+    </select>
+
+    <resultMap id="resultMap" type="com.kai.home.product.pojo.PmsProductSaleAttr">
+
+        <result property="productId" column="product_id"/>
+        <result property="saleAttrId" column="sale_attr_id" />
+        <result property="saleAttrName" column="sale_attr_name" />
+
+        <collection property="spuSaleAttrValueList" ofType="com.kai.home.product.pojo.PmsProductSaleAttrValue">
+            <result property="id" column="sale_attr_value_id" />
+            <result property="saleAttrValueName" column="sale_attr_value_name" />
+            <result property="isChecked" column="isChecked" />
+        </collection>
+
+    </resultMap>
+
+</mapper>

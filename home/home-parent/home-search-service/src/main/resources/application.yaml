@@ -1,0 +1,30 @@
+server:
+  port: 9074
+
+# dubbo的基本信息
+dubbo:
+  application:
+    name: search-service
+  registry:
+    address: zookeeper://localhost:2181
+  protocol:
+    name: dubbo
+    port: 9993
+
+
+# jdbc
+spring:
+  datasource:
+    password:
+    username: root
+    url: jdbc:mysql://localhost:3306/db_gmall?serverTimezone=UTC&characterEncoding=UTF-8
+  elasticsearch:
+    jest:
+      uris: http://centos6:9200
+      connection-timeout: 9000
+      read-timeout: 9000
+#启动驼峰式
+# user_name ---> userName
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

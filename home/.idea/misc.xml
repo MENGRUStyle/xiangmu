@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/home-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-api/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-passport-web/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/fastdfs-client-java/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/home-parent/home-search-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-api/home-api.iml" filepath="$PROJECT_DIR$/home-api/home-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-cart-service/home-cart-service.iml" filepath="$PROJECT_DIR$/home-cart-service/home-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-cart-web/home-cart-web.iml" filepath="$PROJECT_DIR$/home-cart-web/home-cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-common/home-common.iml" filepath="$PROJECT_DIR$/home-common/home-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-item-web/home-item-web.iml" filepath="$PROJECT_DIR$/home-item-web/home-item-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-manage-service/home-manage-service.iml" filepath="$PROJECT_DIR$/home-manage-service/home-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-manage-web/home-manage-web.iml" filepath="$PROJECT_DIR$/home-manage-web/home-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-parent.iml" filepath="$PROJECT_DIR$/home-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-passport-web/home-passport-web.iml" filepath="$PROJECT_DIR$/home-passport-web/home-passport-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-search-service/home-search-service.iml" filepath="$PROJECT_DIR$/home-search-service/home-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-search-web/home-search-web.iml" filepath="$PROJECT_DIR$/home-search-web/home-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-service-util/home-service-util.iml" filepath="$PROJECT_DIR$/home-service-util/home-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-user-service/home-user-service.iml" filepath="$PROJECT_DIR$/home-user-service/home-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-user-web/home-user-web.iml" filepath="$PROJECT_DIR$/home-user-web/home-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-web-util/home-web-util.iml" filepath="$PROJECT_DIR$/home-web-util/home-web-util.iml" />
+    </modules>
+  </component>
+</project>

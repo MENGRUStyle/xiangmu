@@ -1,0 +1,12 @@
+server:
+  port: 8086
+# dubbo的基本信息
+dubbo:
+  application:
+    name: passport-web
+  registry:
+    address: zookeeper://localhost:2181
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYTHML5

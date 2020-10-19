@@ -1,0 +1,9 @@
+server:
+  port: 8083
+
+# dubbo的基本信息
+dubbo:
+  application:
+    name: search-web
+  registry:
+    address: zookeeper://localhost:2181
